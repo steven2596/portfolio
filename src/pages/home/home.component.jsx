@@ -6,6 +6,7 @@ import Header from '../../components/header/header.component';
 import Navbar from '../../components/navbar/navbar.component';
 
 import './home.styles.scss';
+import ProjectSection from '../../components/project-section/project-section.component';
 
 const Homepage = () => {
     return (
@@ -13,6 +14,7 @@ const Homepage = () => {
             <Navbar />
             <Header />
             <About />
+            <ProjectSection />
             <Contact />
             <Footer />
         </div>

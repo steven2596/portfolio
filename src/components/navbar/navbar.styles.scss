@@ -2,6 +2,7 @@
     height: 10vh;
     width: 100%;
     display: flex;
+    align-items: center;
     padding: 2rem 5rem;
 
 
@@ -9,8 +10,7 @@
         width: 5rem;
         height: 5rem;
         background-color: var(--color-primary);
-        
-        
+        cursor: pointer;     
     }
 
     &__menu {
@@ -19,16 +19,36 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        font-size: var(--font-m);
+        font-size: 2.3rem;
+        font-family: var(--font-secondary);
     }
 
     &__item {
-        text-transform: uppercase;
-        &:not(:last-child) {
-            
-            margin-right: 3rem;
+        
+        &:not(:last-child) {   
+            margin-right: 3.5rem;
         }
 
+    }
+
+    &__link {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            bottom: -3px;
+            left: 50%;
+            transform: translateX(-50%);
+            content: '';
+            background-color: var(--color-secondary);
+            height: 2px;
+            width: 0;
+            transition: all .3s;
+        }
+
+        &:hover::after {
+            width: 100%;
+        }
     }
 
 }
