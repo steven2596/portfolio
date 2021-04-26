@@ -18,3 +18,15 @@
     font-size: var(--font-s);
     padding: .7rem 1.5rem;
 }
+
+.navi-btn {
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    border-radius: 5px;
+    font-size: 3.5rem;
+    padding: 1rem 2rem;
+
+    &:hover {
+        background-color: var(--color-primary);
+    }
+}

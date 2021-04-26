@@ -21,6 +21,10 @@
         align-items: center;
         font-size: 2.3rem;
         font-family: var(--font-secondary);
+
+        @media only screen and (max-width: 700px) {
+            display: none;
+        }
     }
 
     &__item {

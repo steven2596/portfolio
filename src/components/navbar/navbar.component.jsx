@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './navbar.styles.scss';
 
 import { ReactComponent as Logo } from '../../assets/icons/logo.svg';
 import CustomButton from '../../components/custom-button/custom-button.component';
+import NavigationToggle from '../navigation/navigation.component';
 
 
 const Navbar = () => {
+    const [navigation, setNavigation] = useState(false);
+
     return (
         <nav className="navbar">
             <Logo className="navbar__logo" />
@@ -27,6 +30,7 @@ const Navbar = () => {
                     <CustomButton small >Resume</CustomButton>
                 </li>
             </ul>
+            <NavigationToggle navigation={navigation} setNavigation={setNavigation} />
         </nav>
     );
 }
