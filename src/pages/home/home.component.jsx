@@ -1,6 +1,6 @@
 import React from 'react';
 import About from '../../components/about/about.component';
-import Footer from '../../components/about/footer/footer.component';
+import Footer from '../../components/footer/footer.component';
 import Contact from '../../components/contact/contact.component';
 import Header from '../../components/header/header.component';
 import Navbar from '../../components/navbar/navbar.component';
