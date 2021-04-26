@@ -1,0 +1,52 @@
+.contact {
+    height: 95vh;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100vh;
+    align-items: center;
+
+    &__content {
+        grid-column: 2 / span 5;
+
+        .content {
+        
+            &__heading {
+                
+            }
+
+            &__text {
+                margin: 3rem 0;
+            }
+
+            &__group {
+
+                &--1 {
+                    margin-bottom: 5rem;
+                }
+                 
+                .group {
+
+                    &__heading {
+                        margin-bottom: .7rem;
+                    }
+
+                    &__text {
+
+                    }
+                }
+            }
+        }
+    }
+
+    &__img {
+        grid-column: 8 / span 5;
+
+        .img__svg {
+            width: 80%;
+            height: 50%;
+        }
+    }
+}
+
