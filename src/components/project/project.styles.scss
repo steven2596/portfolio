@@ -8,6 +8,14 @@
         margin: 0 2rem;
     }
 
+    @media only screen and (max-width: 700px) {
+        column-gap: 0;
+    }
+
+    @media only screen and (max-width: 568px) {
+        row-gap: 3rem;
+    }
+
     &:not(:last-child) {
         margin-bottom: 15rem;
     }
@@ -32,6 +40,11 @@
             opacity: 15%;
             pointer-events: none;
         }
+
+        @media only screen and (max-width: 568px) {
+            opacity: 50%;
+            grid-row: 2 / 3;   
+        }
     }
 
     &__img {
@@ -52,6 +65,11 @@
         @media only screen and (max-width: 768px) {
             grid-column: 2 / span 10;
             grid-row: 1 / 2;
+        }
+
+        @media only screen and (max-width: 568px) {
+            grid-column: 1 / -1;
+           
         }
     }
 
@@ -111,6 +129,11 @@
         grid-column: 2 / span 10;
         grid-row: 1 / 2;
     }
+
+    @media only screen and (max-width: 568px) {
+        grid-column: 1 / -1;
+        
+    }
 }
 
 .reverse-img {
@@ -126,6 +149,11 @@
         grid-row: 1 / 2;
         opacity: 15%;
         pointer-events: none;
+    }
+
+    @media only screen and (max-width: 568px) {
+        grid-row: 2 / 3;
+        opacity: 50%;
     }
 }
 
