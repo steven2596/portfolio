@@ -15,17 +15,17 @@ const NavigationToggle = ({ navigation, setNavigation }) => {
             <div className="navigation__background" ></div>
             <div className="navigation__menu-container">
                 <ul className="navigation__menu">
-                    <li className="navigation__item">
-                        <a href="#" className="navigation__link">Home</a>
+                    <li className="navigation__item" onClick={() => setNavigation(false)}>
+                        <a href="#home" className="navigation__link">Home</a>
                     </li>
-                    <li className="navigation__item">
-                        <a href="#" className="navigation__link">About</a>
+                    <li className="navigation__item" onClick={() => setNavigation(false)}>
+                        <a href="#about" className="navigation__link">About</a>
                     </li>
-                    <li className="navigation__item">
-                        <a href="#" className="navigation__link">Work</a>
+                    <li className="navigation__item" onClick={() => setNavigation(false)}>
+                        <a href="#work" className="navigation__link">Work</a>
                     </li>
-                    <li className="navigation__item">
-                        <a href="#" className="navigation__link">Contact</a>
+                    <li className="navigation__item" onClick={() => setNavigation(false)}>
+                        <a href="#contact" className="navigation__link">Contact</a>
                     </li>
                     <li className="navigation__item">
                         <a href="#" className="navigation__link">

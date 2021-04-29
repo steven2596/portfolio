@@ -11,20 +11,20 @@ const Navbar = () => {
     const [navigation, setNavigation] = useState(false);
 
     return (
-        <nav className="navbar">
+        <nav className="navbar" id="home">
             <Logo className="navbar__logo" />
             <ul className="navbar__menu">
                 <li className="navbar__item">
-                    <a href="#" className="navbar__link">Home</a>
+                    <a href="#home" className="navbar__link">Home</a>
                 </li>
                 <li className="navbar__item">
-                    <a href="#" className="navbar__link">About</a>
+                    <a href="#about" className="navbar__link">About</a>
                 </li>
                 <li className="navbar__item">
-                    <a href="#" className="navbar__link">Work</a>
+                    <a href="#work" className="navbar__link">Work</a>
                 </li>
                 <li className="navbar__item">
-                    <a href="#" className="navbar__link">Contact</a>
+                    <a href="#contact" className="navbar__link">Contact</a>
                 </li>
                 <li className="navbar__item" >
                     <CustomButton small >Resume</CustomButton>

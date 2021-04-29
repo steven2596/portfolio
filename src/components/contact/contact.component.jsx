@@ -7,7 +7,7 @@ import { ReactComponent as ContactSvg } from '../../assets/icons/contact.svg';
 
 const Contact = () => {
     return (
-        <div className="contact" >
+        <div className="contact" id="contact" >
             <div className="contact__content" >
                 <h2 className="content__heading">Contact</h2>
                 <p className="content__text" >

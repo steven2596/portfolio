@@ -8,6 +8,9 @@
         width: 5rem;
         height: 5rem;
         display: none;
+        border: 2px solid var(--color-secondary);
+        border-radius: 10rem;
+        background-color: var(--color-primary);
 
         @media only screen and (max-width: 700px) {
             display: flex;
@@ -15,9 +18,19 @@
             align-items: center;
         }
 
+        @media only screen and (max-width: 500px) {
+            right: 2rem;
+        }
+
+        @media only screen and (max-width: 360px) {
+            top: 1.7rem;
+        }
+
+        
+
         &-icon {
             height: 3px;
-            width: 3.5rem;
+            width: 3rem;
             background-color: var(--color-secondary);
             position: relative;
 
@@ -27,7 +40,7 @@
                 left: 0;
                 content: '';
                 height: 3px;
-                width: 3.5rem;
+                width: 3rem;
                 background-color: var(--color-secondary);
                 transition: all .3s ease-out;
             }
@@ -88,6 +101,11 @@
 }
 
 .navigation-active {
+
+    & .navigation__button {
+        background-color: var(--color-secondary);
+        border: 2px solid var(--color-white);
+    }
 
     &  .navigation__background,
     & .navigation__menu-container {

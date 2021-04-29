@@ -5,14 +5,17 @@ import './header.styles.scss';
 
 const Header = () => {
     return (
-        <header className="header" >
+        <header className="header">
             <div className="header__text-box">
                 <span className="header__text">Hi, my name is</span>
                 <h1 className="header__heading header__heading--1">Aung Kaung Myat.</h1>
                 <h1 className="header__heading header__heading--2">I am a Web Developer.</h1>
-                <CustomButton>View My Work</CustomButton>
+                <a href="#work">
+                    <CustomButton>View My Work</CustomButton>
+                </a>
             </div>
         </header>
+
     )
 };
 

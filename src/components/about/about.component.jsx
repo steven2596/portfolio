@@ -6,7 +6,7 @@ import { ReactComponent as AboutSvg } from '../../assets/icons/about.svg';
 
 const About = () => {
     return (
-        <div className="about">
+        <div className="about" id="about" >
             <div className="about__content">
                 <h2 className="content__heading">About Me</h2>
                 <p className="content__text content__text--1">

@@ -29,11 +29,11 @@ const Project = ({ project }) => {
                         tech.map(skill => <li className="project__tech-item">{skill}</li>)
                     }
                 </ul>
-                <div className="project__links" >
+                <div className="project__links" target="_blank">
                     <a href={url} >
                         <CustomButton small >Live Website</CustomButton>
                     </a>
-                    <a href={repo}>
+                    <a href={repo} target="_blank">
                         <CustomButton small >Git Repo</CustomButton>
                     </a>
                 </div>
