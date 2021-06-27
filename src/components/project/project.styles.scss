@@ -22,12 +22,12 @@
 
     &__img-container {
         grid-column: 2 / span 5;
-        opacity: 50%;
+        opacity: 0.5;
         cursor: pointer;
         transition: all .4s;
 
         &:hover {
-            opacity: 100%;
+            opacity: 1;
         }
 
         @media only screen and (max-width: 900px) {
