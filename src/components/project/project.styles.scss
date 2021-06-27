@@ -37,12 +37,12 @@
         @media only screen and (max-width: 768px) {
             grid-column: 1 / -1;
             grid-row: 1 / 2;
-            opacity: 15%;
+            opacity: 0.15;
             pointer-events: none;
         }
 
         @media only screen and (max-width: 568px) {
-            opacity: 50%;
+            opacity: 0.5;
             grid-row: 2 / 3;   
         }
     }
@@ -147,13 +147,13 @@
     @media only screen and (max-width: 768px) {
         grid-column: 1 / -1;
         grid-row: 1 / 2;
-        opacity: 15%;
+        opacity: 0.15;
         pointer-events: none;
     }
 
     @media only screen and (max-width: 568px) {
         grid-row: 2 / 3;
-        opacity: 50%;
+        opacity: 0.5;
     }
 }
 
