@@ -4,9 +4,15 @@ import ReactDom from 'react-dom';
 
 import './navigation.styles.scss';
 
+import cv from '../../assets/CV.pdf';
+
 import CustomButton from '../custom-button/custom-button.component';
 
 const NavigationToggle = ({ navigation, setNavigation }) => {
+    const onResumeClick = () => {
+        window.open(cv);
+    }
+
     return ReactDom.createPortal(
         <div className={`navigation ${navigation ? 'navigation-active' : ''}`} >
             <div className="navigation__button" onClick={() => setNavigation(!navigation)}>
@@ -29,7 +35,9 @@ const NavigationToggle = ({ navigation, setNavigation }) => {
                     </li>
                     <li className="navigation__item">
                         <a href="#" className="navigation__link">
-                            <CustomButton naviButton>Resume</CustomButton>
+                            <CustomButton naviButton>
+                                <a onClick={onResumeClick} target="_blank" rel='noopener noreferrer'>Resume</a>
+                            </CustomButton>
                         </a>
                     </li>
                 </ul>
