@@ -11,7 +11,7 @@ const About = () => {
                 <h2 className="content__heading">About Me</h2>
                 <p className="content__text content__text--1">
                     Hi, my name is Aung Kaung Myat and I'm a passionate
-                    Front-end Web Developer. As a developer, I build
+                    Web Developer. As a developer, I build
                     products with continuous iteration to produce results
                     quickly and continuously improve products with the power
                     of technology.

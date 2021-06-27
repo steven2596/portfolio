@@ -18,14 +18,14 @@ const ProjectData = [
         description: 'Wanderlust is the travel and tour agency which manages tour packages for Switzerland. It’s a landing page which showcases the agency’s services, tour packages it offers, benefits, etc.',
         tech: ['HTML', 'CSS', 'Sass', 'Javascript', 'React'],
         image: img1,
-        url: 'www.wanderlust-travels.com',
+        url: 'https://wanderlust-travels.netlify.app',
         repo: 'https://github.com/steven2596/wanderlust-travels'
     },
     {
         id: 2,
         title: 'TickTask',
-        description: 'TickTask is a web application which helps you to make a list of tasks with different priority levels and keep track of completed tasks. It also includes dark mode which helps reduce eye strain in low-light conditions.',
-        tech: ['HTML', 'CSS', 'Sass', 'Javascript', 'React', 'Redux'],
+        description: 'TickTask is a full-stack web application which helps you to make a list of tasks with different priority levels and keep track of completed tasks. It also includes dark mode which helps reduce eye strain in low-light conditions.',
+        tech: ['HTML', 'CSS', 'Sass', 'Javascript', 'React', 'Redux', 'Node.js', 'Express', 'MongoDB'],
         image: img2,
         url: 'www.ticktask.com',
         repo: 'https://github.com/steven2596/ticktask'

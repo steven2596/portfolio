@@ -30,7 +30,7 @@ const Project = ({ project }) => {
                     }
                 </ul>
                 <div className="project__links" target="_blank">
-                    <a href={url} >
+                    <a href={url} target="_blank">
                         <CustomButton small >Live Website</CustomButton>
                     </a>
                     <a href={repo} target="_blank">

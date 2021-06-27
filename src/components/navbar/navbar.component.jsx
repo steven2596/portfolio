@@ -5,10 +5,15 @@ import './navbar.styles.scss';
 import { ReactComponent as Logo } from '../../assets/icons/logo.svg';
 import CustomButton from '../../components/custom-button/custom-button.component';
 import NavigationToggle from '../navigation/navigation.component';
+import cv from '../../assets/CV.pdf';
 
 
 const Navbar = () => {
     const [navigation, setNavigation] = useState(false);
+
+    const onResumeClick = () => {
+        window.open(cv);
+    }
 
     return (
         <nav className="navbar" id="home">
@@ -27,7 +32,9 @@ const Navbar = () => {
                     <a href="#contact" className="navbar__link">Contact</a>
                 </li>
                 <li className="navbar__item" >
-                    <CustomButton small >Resume</CustomButton>
+                    <CustomButton small>
+                        <a onClick={onResumeClick} target="_blank" rel='noopener noreferrer'>Resume</a>
+                    </CustomButton>
                 </li>
             </ul>
             <NavigationToggle navigation={navigation} setNavigation={setNavigation} />
