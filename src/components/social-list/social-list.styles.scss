@@ -1,0 +1,36 @@
+.social {
+    position: fixed;
+    bottom: 0;
+    right: 3rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__item {
+
+    }
+
+    &__link {
+
+    }
+
+    &__icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: var(--color-secondary);
+        margin-bottom: 3rem;
+        transition: all .3s;
+
+        &:hover {
+            transform: translateY(-1rem);
+        }
+    }
+
+    &__line {
+        display: block;
+        height: 10rem;
+        width: 2px;
+        background-color: var(--color-secondary);
+    }
+}

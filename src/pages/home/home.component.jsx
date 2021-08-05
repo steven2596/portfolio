@@ -7,6 +7,7 @@ import Navbar from '../../components/navbar/navbar.component';
 
 import './home.styles.scss';
 import ProjectSection from '../../components/project-section/project-section.component';
+import SocialList from '../../components/social-list/social-list.component';
 
 const Homepage = () => {
     return (
@@ -17,6 +18,7 @@ const Homepage = () => {
             <ProjectSection />
             <Contact />
             <Footer />
+            <SocialList />
         </div>
     )
 };

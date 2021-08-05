@@ -1,13 +1,13 @@
 .custom-button {
     font-size: var(--font-m);
-    background-color: transparent;
+    background-color: var(--color-primary);
     color: var(--color-secondary);
     border: 2px solid var(--color-secondary);
     border-radius: 10rem;
     padding: 1.5rem 2.5rem;
     cursor: pointer;
-    transition: all .3s;
-
+    transition: all .3s ease-in-out;
+    
     &:hover {
         color: var(--color-white);
         background-color: var(--color-secondary);
