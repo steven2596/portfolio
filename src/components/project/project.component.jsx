@@ -16,9 +16,11 @@ const Project = ({ project }) => {
 
     return (
         <div className="project" >
-            <div className={`project__img-container ${reverse ? 'reverse-img' : ''}`}>
-                <img src={image} alt="project-img" className="project__img" />
-            </div>
+            <a href={url} target="_blank">
+                <div className={`project__img-container ${reverse ? 'reverse-img' : ''}`}>
+                    <img src={image} alt="project-img" className="project__img" />
+                </div>
+            </a>
 
             <div className={`project__content ${reverse ? 'reverse-content' : ''}`}>
                 <span className="project__text">Featured Project</span>

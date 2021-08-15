@@ -5,7 +5,7 @@ const ProjectData = [
         description: 'T-Metro is an E-commerce website where people can buy albums and merch of the artist TWICE. Website features include product search, cart checkout, payment with Stripe, user registration and login.',
         tech: ['HTML', 'CSS', 'Sass', 'Javascript', 'React', 'Redux', 'Node.js', 'Firebase', 'Stripe API', 'Express'],
         image: "https://i.ibb.co/0nhYVXP/t-metro.png",
-        url: 'www.t-metro.com',
+        url: 'https://tmetro.netlify.app',
         repo: 'https://github.com/steven2596/t-metro'
     },
     {
@@ -23,7 +23,7 @@ const ProjectData = [
         description: 'TickTask is a full-stack web application which helps you to make a list of tasks with different priority levels and keep track of completed tasks. It also includes dark mode which helps reduce eye strain in low-light conditions.',
         tech: ['HTML', 'CSS', 'Sass', 'Javascript', 'React', 'Redux', 'Node.js', 'Express', 'MongoDB'],
         image: "https://i.ibb.co/dMgN6C4/ticktask.png",
-        url: 'www.ticktask.com',
+        url: 'https://ticktask.netlify.app',
         repo: 'https://github.com/steven2596/ticktask'
     }
 ];
