@@ -4,13 +4,13 @@ import ReactDom from 'react-dom';
 
 import './navigation.styles.scss';
 
-import cv from '../../assets/CV.pdf';
+import resume from '../../assets/resume.pdf';
 
 import CustomButton from '../custom-button/custom-button.component';
 
 const NavigationToggle = ({ navigation, setNavigation }) => {
     const onResumeClick = () => {
-        window.open(cv);
+        window.open(resume);
     }
 
     return ReactDom.createPortal(

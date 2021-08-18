@@ -5,14 +5,14 @@ import './navbar.styles.scss';
 import { ReactComponent as Logo } from '../../assets/icons/logo.svg';
 import CustomButton from '../../components/custom-button/custom-button.component';
 import NavigationToggle from '../navigation/navigation.component';
-import cv from '../../assets/CV.pdf';
+import resume from '../../assets/resume.pdf';
 
 
 const Navbar = () => {
     const [navigation, setNavigation] = useState(false);
 
     const onResumeClick = () => {
-        window.open(cv);
+        window.open(resume);
     }
 
     return (

@@ -8,7 +8,7 @@ import Project from '../project/project.component';
 const ProjectSection = () => {
     return (
         <div className="project-section" id="work">
-            <h2 className="project-section__heading">Projects I've Built</h2>
+            <h2 className="project-section__heading">Some Projects I've Built</h2>
             {
                 ProjectData.map(project => <Project key={project.id} project={project} />)
             }
