@@ -14,6 +14,13 @@ const SocialList = () => {
                 </a>
             </li>
             <li className="social__item">
+                <a className="social__link" href="https://www.linkedin.com/in/aungkaungmyat2596/" target="_blank">
+                    <svg className="social__icon">
+                        <use href={sprite + '#icon-linkedin'} />
+                    </svg>
+                </a>
+            </li>
+            <li className="social__item">
                 <a className="social__link" href="https://www.facebook.com/aungkaungmyat25" target="_blank">
                     <svg className="social__icon">
                         <use href={sprite + '#icon-facebook'} />
@@ -24,13 +31,6 @@ const SocialList = () => {
                 <a className="social__link" href="https://www.instagram.com/akm_steven/" target="_blank">
                     <svg className="social__icon">
                         <use href={sprite + '#icon-instagram'} />
-                    </svg>
-                </a>
-            </li>
-            <li className="social__item">
-                <a className="social__link" href="#" target="_blank">
-                    <svg className="social__icon">
-                        <use href={sprite + '#icon-linkedin'} />
                     </svg>
                 </a>
             </li>
