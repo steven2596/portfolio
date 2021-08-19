@@ -23,11 +23,11 @@ const About = () => {
                     <ul className="content__skill-list content__skill-list--left">
                         <li className="content__skill">
                             <span className="content__arrow-icon" >&#10146;</span>
-                            <span className="content__skill-name" >HTML</span>
+                            <span className="content__skill-name" >React</span>
                         </li>
                         <li className="content__skill">
                             <span className="content__arrow-icon" >&#10146;</span>
-                            <span className="content__skill-name" >CSS</span>
+                            <span className="content__skill-name" >Redux</span>
                         </li><li className="content__skill">
                             <span className="content__arrow-icon" >&#10146;</span>
                             <span className="content__skill-name" >Sass</span>
@@ -39,17 +39,17 @@ const About = () => {
                     <ul className="content__skill-list content__skill-list--right">
                         <li className="content__skill">
                             <span className="content__arrow-icon" >&#10146;</span>
-                            <span className="content__skill-name" >React</span>
+                            <span className="content__skill-name" >Node.js</span>
                         </li>
                         <li className="content__skill">
                             <span className="content__arrow-icon" >&#10146;</span>
-                            <span className="content__skill-name" >Redux</span>
-                        </li><li className="content__skill">
-                            <span className="content__arrow-icon" >&#10146;</span>
-                            <span className="content__skill-name" >Node.js</span>
-                        </li><li className="content__skill">
-                            <span className="content__arrow-icon" >&#10146;</span>
                             <span className="content__skill-name" >Express</span>
+                        </li><li className="content__skill">
+                            <span className="content__arrow-icon" >&#10146;</span>
+                            <span className="content__skill-name" >Next.js</span>
+                        </li><li className="content__skill">
+                            <span className="content__arrow-icon" >&#10146;</span>
+                            <span className="content__skill-name" >MongoDB</span>
                         </li>
                     </ul>
                 </div>
